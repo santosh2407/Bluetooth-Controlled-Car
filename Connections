@@ -1,1 +1,4 @@
-
+Connect the pins as per the below connections: 
+- Firsty, Connect the Rx and Tx of the HC-05 bluetooth module to the Tx and Rx of the Arduino board respectively. 
+- Vcc and and GND are need to be connected to 5v and GND of the Arduino. 
+- Connect the In1, In2, In3, In4 to the 
