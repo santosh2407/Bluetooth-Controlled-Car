@@ -1,4 +1,10 @@
 Connect the pins as per the below connections: 
 - Firsty, Connect the Rx and Tx of the HC-05 bluetooth module to the Tx and Rx of the Arduino board respectively. 
 - Vcc and and GND are need to be connected to 5v and GND of the Arduino. 
-- Connect the In1, In2, In3, In4 to the 
+- Connect the In1, In2, In3, In4 to the pin number 9, 10, 11, 12 of the Arduino.
+- If you want to control the speed to the robot the we can you Enable pins which are labelled as En1 and En2. 
+- Then, connet the motors to the output terminals of the L298N motor driver. 
+- Finally, Connect the 12v terminal of the motor driver to the positive terminal of the 12v battery then for the GND take two wires from the GND, connect one wire to the negative terminal of the battery and other terminal to the GND of the Arduino board and the 5v terminal of L298N should be connected to the 5v terminal of the Arduino board. 
+
+NOTE: THE ARDUINO BOARD NEEDS SEPERATE POWER SUPPLY APART FROM THE 12V BATTERY. 
+
